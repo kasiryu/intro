@@ -1,0 +1,214 @@
+@charset "UTF-8";
+body{
+    font-size: x-large;
+    background-color: rgb(30, 196, 243);
+    border-bottom: 50px solid rgb(62, 190, 188);
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top:65px ;
+}
+header{
+    position:fixed;
+    top:0px;
+    height: 70px;
+    width:100%;
+    background-color: rgb(62, 190, 188);
+    z-index: 10;
+}
+header ul{
+    display: flex;
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    color: #fff;
+    display:block;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+header ul li a:hover{
+    transform: scale(1.2,1.2);
+}
+header ul li{
+    width: 25%;
+    text-align: center;
+    border-right: 1px solid #200902;
+}
+header ul li:first-child{
+    border-left: #200902;
+} 
+h1{
+    width: 100%;
+    background-color: rgb(62,190,188);
+    color: #fff;
+}
+.logo ul{
+    display: flex; 
+    justify-content: center;
+    list-style: none;
+}
+.logo img{
+    width: 100%;
+    margin-top: 50px;
+}
+.name{
+    display: flex;
+    list-style: none;
+    margin-left: 0px;
+}
+.name img{
+    width: 200px;
+    margin-top: 10px;
+}
+.namae{
+    margin-top: 20px;
+    margin-left: 0px;
+    display: flex;
+    list-style: none;
+}
+#intoro h2{
+    color: rgb(255, 1, 1);
+    font-weight: bold;
+}
+.snow{
+    display: flex;
+    list-style: none;
+}
+.snow img{
+    width:400px;
+}
+.snow li p{
+    width:550px;
+    margin-left: 10px;
+    margin-top: 70px;
+}
+.drive{
+    display: flex;
+    list-style: none;
+}
+.drive img{
+    width:700px;
+    margin-right: 0px;
+}
+.drive li p{
+    width:550px;
+    margin-right: 0px;
+    margin-top: 20px;
+}
+.gamename{
+    display: flex;
+    list-style: none;
+}
+.gamename li{
+    margin-bottom: -100px;
+    height: 35px;
+}
+.buro{
+    margin-left: 300px;
+    background-color: #fff;
+    z-index: 1;
+}
+.pazu{
+    margin-left: 350px;
+    background-color: #fff;
+    z-index: 1;
+}
+.oni{
+    margin-left: 350px;
+    background-color: #fff;
+    z-index: 1;
+}
+.game{
+    display: flex;
+    list-style: none;
+}
+.game img{
+    width:90%;
+    margin-top: -10px;
+}
+.coment{
+    display: flex;
+    list-style: none;
+}
+.coment li{
+    width: 33%;
+    text-align: center;
+    margin-top: -50px;
+}
+.eat{
+    display: flex;
+    list-style: none;
+}
+.eat img{
+    width: 90%;
+    margin-bottom: -40px;
+}
+.ec{
+    display: flex;
+    list-style: none;
+}
+.sawayaka{
+    margin-top: -40px;
+    margin-left: 200px;
+    background-color: #fff;
+    height: 35px;
+}
+.hakata{
+    margin-top: -40px;
+    margin-left: 150px;
+    background-color: #fff;
+    height: 35px;
+}
+.morioka{
+    margin-top: -40px;
+    margin-left: 100px;
+    background-color: #fff;
+    height: 35px;
+}
+.tabemono{
+    display: flex;
+    list-style: none;
+}
+.tabemono img{
+    width: 90%;
+}
+.ec2{
+    display: flex;
+    list-style: none;
+}
+.yukiguni{
+    margin-top: -80px;
+    margin-left: 180px;
+    background-color: #fff;
+    height: 35px;
+}
+.sitiri{
+    margin-top: -80px;
+    margin-left: 90px;
+    background-color: #fff;
+    height: 35px;
+}
+.baito{
+    margin-top: -80px;
+    margin-left: 90px;
+    background-color: #fff;
+    height: 35px;
+}
+h3{
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+.red{
+    color: red;
+}
+.s{
+    background-color: #fff;
+    width: 1010px;
+    height: 650px;
+}
+.d{
+    margin-left: 150px;
+    background-color: #efb4b4b5;
+    height: 650px;
+}
